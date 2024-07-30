@@ -1,4 +1,3 @@
-import * as React from "react";
 import { useState } from "react";
 import { Autocomplete, TextField, Paper } from "@mui/material";
 
@@ -14,7 +13,7 @@ export default function ComboBox() {
       onOpen={() => setOpen(true)}
       onClose={() => setOpen(false)}
       sx={{
-        width: 220,
+        width: 180,
         height: "62px",
       }}
       PaperComponent={({ children }) => (
